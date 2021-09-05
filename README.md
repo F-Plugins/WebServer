@@ -1,4 +1,4 @@
-<h1 align="center">JobRewards</h1>
+<h1 align="center">Web Server</h1>
 <h3 align="center">A plugin that provides a web server to host files</h3>
 
 **Id:** Feli.WebServer
