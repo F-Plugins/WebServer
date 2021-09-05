@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>WebServer</RootNamespace>
+    <Nullable>disable</Nullable>
+    <AssemblyVersion>0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Feli.WebServer</PackageId>
+    <!-- must be unique, should be same as your plugin ID -->
+    <PackageDescription>A plugin that provides a web server to host files</PackageDescription>
+    <PackageLicenseExpression>Your License</PackageLicenseExpression>
+    <!-- see https://spdx.org/licenses/ -->
+    <PackageAuthor>Feli</PackageAuthor>
+    <PackageTags>openmod openmod-plugin universal</PackageTags>
+    <!-- XXX can be unturned, unityengine or universal depending on your plugin -->
+    <Version>0.0.0</Version>
+    <!-- Your plugins version. Must be semversion, see https://semver.org/ -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateNugetPackage>true</GenerateNugetPackage>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="OpenMod.Core" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="WebServerFiles/index.html" />
+    <EmbeddedResource Include="WebServerFiles/404.html" />
+    <EmbeddedResource Include="WebServerFiles/1011.png" />
+    <EmbeddedResource Include="config.yaml" />
+  </ItemGroup>
+
+</Project>
