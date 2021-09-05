@@ -1,5 +1,5 @@
 <h1 align="center">Web Server</h1>
-<h3 align="center">A plugin that provides a web server to host files</h3>
+<h3 align="center">A plugin that provides a web server to host files and images that can be used by plugins</h3>
 
 **Id:** Feli.WebServer
 
