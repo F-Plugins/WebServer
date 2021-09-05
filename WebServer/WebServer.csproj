@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -12,7 +12,7 @@
     <PackageId>Feli.WebServer</PackageId>
     <!-- must be unique, should be same as your plugin ID -->
     <PackageDescription>A plugin that provides a web server to host files</PackageDescription>
-    <PackageLicenseExpression>Your License</PackageLicenseExpression>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <!-- see https://spdx.org/licenses/ -->
     <PackageAuthor>Feli</PackageAuthor>
     <PackageTags>openmod openmod-plugin universal</PackageTags>
