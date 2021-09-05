@@ -2,8 +2,11 @@
 <h3 align="center">A plugin that provides a web server to host files</h3>
 
 **Id:** Feli.WebServer
+
 **Version:** 1.0.0
+
 **Author:** Feli
+
 **Website:** discord.fplugins.com
 
 <h2 align="center">Configuration</h1>
